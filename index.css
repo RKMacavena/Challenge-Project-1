@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin: 3rem;
+}
+
+h2{
+    text-align: center;
+    margin: 2.5rem;
+}
+
+table{
+    color: black;
+    background-color: white;
+    border: medium solid white;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+table th {
+    color: white;
+    background-color: black;
+    padding: 0.3rem
+}
+
+table td {
+    border-bottom: thin solid black;
+}
+
+table .name {
+    border-left: thin solid black;
+    border-right: thin solid black;
+    padding: 1rem;
+}
