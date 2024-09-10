@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Challenge Project
+            </title>
+            <link rel="stylesheet" href="./resources/css/index.css">
+        </head>
+        <body>
+            <header>
+                <h1>Using CSS selectors and Specificity</h1>
+            </header>
+            <div class="CSS-Selectors">
+                <h2>What are CSS selectors?</h2>
+                <p>CSS selectors are used to target elements in HTML to apply styles to them.
+                    They make use of tags and attributes in HTML. Below are the selectors, names and descriptions.
+                </p>
+            </div>
+            <table>
+                    <thead>
+                        <tr>
+                            <th scope="colgroup">SELECTOR</th>
+                            <th scope="colgroup">NAME</th>
+                            <th scope="colgroup">DESCRIPTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>p</td>
+                            <td class="name">tag</td>
+                            <td>Targets elements by using the tags of elements</td>
+                        </tr>
+                        <tr>
+                            <td>*</td>
+                            <td class="name">universal</td>
+                            <td>Targets all HTML elements</td>
+                        </tr>
+                        <tr>
+                            <td>.class</td>
+                            <td class="name">class</td>
+                            <td>Targets elements by using the value of the class attribute</td>
+                        </tr>
+                        <tr>
+                            <td>#id</td>
+                            <td class="name">id</td>
+                            <td>Targets elements by using unique values of id attribute</td>
+                        </tr>
+                        <tr>
+                            <td>[img]<br>or<br>img[src*='value']</td>
+                            <td class="name">attributes</td>
+                            <td>Targets elements that contain attributes in the opening tag.<br>
+                                It can also target specific elements using a unique value from the url from the attribute.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>p:hover</td>
+                            <td class="name">pseudo</td>
+                            <td>Targets elements using the tags of elements with styles that are only visible by user interaction</td>
+                        </tr>
+                        <tr>
+                            <td>p.class</td>
+                            <td class="name">chain</td>
+                            <td>Targets elements by combining different selectors</td>
+                        </tr>
+                        <tr>
+                            <td>.class li<br>or<br>#id li</td>
+                            <td class="name">descendent</td>
+                            <td>Targets elements nested in other elements that have class or id attributes</td>
+                        </tr>
+                        <tr>
+                            <td>p, body</td>
+                            <td class="name">combination</td>
+                            <td>Targets elements that are unrelated using their tags</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="CSS-Specificity">
+                <h2>What is specificity?</h2>
+                <p>Elements can be styled using different selectors.
+                    Specificity determines which style is displayed by the browsers by the selector used.
+                    id selectors are more specific than class selectors which in turn are more specific than tag selectors.
+                    "!important" can be used at the end of a declaration that overrides any specificity.
+                </p>
+            </div>
+        </body>
+    </html>
